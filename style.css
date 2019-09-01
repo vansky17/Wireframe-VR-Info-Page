@@ -1,0 +1,56 @@
+
+header {
+  padding: 10% 2%;
+  background: white;
+  color: black;
+  border: 2px solid gray;
+}
+header h1 {
+  font-size: 4em;
+  text-align: center;
+  color: black;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+}
+.card h1 {
+  font-size: 1.5em;
+  margin-top: 7em;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container h2 {
+  text-align: center;
+}
+#results, #results-youtube, #results-tweets{
+  min-width:33%;
+  max-width:33%;
+  border: 2px solid gray;
+}
+#results-list, #results-list-youtube {
+  padding:0;
+}
+
+li.tweet{  
+    list-style-type: none;
+    border:1px solid gray;
+    border-radius: 5px;
+    margin: .5em;
+    flex: 1 0 29%;
+    min-width:29%;
+    padding: 3em;
+}
+.card {
+    padding-left: 1em;
+    width: 90%;
+    border: 1px solid gray;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+  
