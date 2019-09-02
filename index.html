@@ -4,66 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wireframe VR Info Page</title>
+    <title>MVP VR Info Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
   <header id="home" role="banner">
-    <h1 class="slideDown">Hero Section</h1>
+    <h1 class="slideDown">VR News Feed</h1>
     <div class="buttons">
-      <button>VR News</button>
-      <button>AR News</button>
+      <button id="topic-VR">VR News</button>
+      <button id="topic-AR">AR News</button>
+      <p id="js-error-message" class="error-message"></p> 
     </div>
   </header>
-    <div class="container">
-        <!-- <p id="js-error-message" class="error-message"></p> -->
+    <div class="container">   
       <section id="results" class="hidden">
-        <h2>Press Articles Section</h2>
-        <ul id="results-list">
-          <li class="press-article card">
-            <h1>Press article title lorem ipsum</h1>
-          </li>
-          <li class="press-article card">
-            <h1>Press article title lorem ipsum</h1>
-          </li>
-          <li class="press-article card">
-            <h1>Press article title lorem ipsum</h1>
-          </li>
-          <li class="press-article card">
-            <h1>Press article title lorem ipsum</h1>
-          </li>             
+        <h2>VR Press News</h2>
+        <ul id="results-list">    
         </ul>
       </section>
       <section id="results-youtube" class="hidden">
-        <h2>Videos Section</h2>
-          <ul id="results-list-youtube">
-            <li class="video card">
-              <h1>Video title lorem ipsum</h1>
-            </li>
-            <li class="video card">
-              <h1>Video title lorem ipsum</h1>
-            </li>
-            <li class="video card">
-              <h1>Video title lorem ipsum</h1>
-            </li>
-            <li class="video card">
-              <h1>Video title lorem ipsum</h1>
-            </li>
-          </ul>
+        <h2>VR Videos</h2>
+          <ul id="results-list-youtube"> 
        </section>
       <section id="results-tweets">
-            <h2>Tweets Section</h2>
-            <ul id="tweets">
-              <li class="tweet">tweet 1</li>
-              <li class="tweet">tweet 2</li>
-              <li class="tweet">tweet 3</li>
-              <li class="tweet">tweet 4</li>
-              <li class="tweet">tweet 5</li>
-              <li class="tweet">tweet 6</li>
-              <li class="tweet">tweet 7</li>
-              <li class="tweet">tweet 8</li>
-            </ul>
+        <h2>Latest VR Tweets</h2>
+        <ul id="tweets">
+        </ul>
       </section>  
     </div> 
+    <script src="script.js"></script>
 </body>
 </html>

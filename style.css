@@ -16,6 +16,8 @@ header h1 {
 }
 li {
   list-style-type: none;
+  border-bottom: 4px solid gray;
+  padding: .5em;
 }
 .card h1 {
   font-size: 1.5em;
@@ -42,9 +44,6 @@ li.tweet{
     border:1px solid gray;
     border-radius: 5px;
     margin: .5em;
-    flex: 1 0 29%;
-    min-width:29%;
-    padding: 3em;
 }
 .card {
     padding-left: 1em;
@@ -53,4 +52,9 @@ li.tweet{
     margin-left: 1em;
     margin-bottom: 1em;
   }
-  
+  img {
+    width: 100%;height:auto;
+  }
+  img.avatar {
+    width: 25%;height:auto
+  }
