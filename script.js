@@ -139,7 +139,7 @@ function handleTweetData(tweets) {
       `<li class="tweet">
           <a class="link-to" href="https://twitter.com/${tweets[i].user.id}/status/${tweets[i].id_str}" target="_blank">
             <div class="tweet-header">
-              <img class="avatar" src="${tweets[i].user.profile_image_url}" alt="avatar">
+              <img class="avatar" src="${tweets[i].user.profile_image_url_https}" alt="avatar">
               <div class="">
                         <span class="">${tweets[i].user.name}</span>
                         </span>
